@@ -28,14 +28,14 @@
     margin: 3px 6px ;
     position:relative;
     z-index:49;
-
+    border: 2px solid greenyellow;
+    border-radius: 30px;
     
 }
 
 /* Navigation bar: list styling*/
  #navbar{
   position:Relative;
-  background-color:rgb(63, 59, 55);
   font-family: fantasy;
   font-family: 'Averia Libre', cursive;
 
@@ -48,11 +48,11 @@
 
  #navbar ul{
    display: flex;
-   padding-left:750px ;
+   padding-left: 1360px;
 }
  #navbar::before{
    content:"" ;
-   background-color: black;
+   background-color: rgb(255, 255, 255);
    position: absolute ;
    height:100%;
    width: 100%;
@@ -70,12 +70,13 @@
    display: block ;
    padding:3px 20px ;
    border-radius: 20px;
-   color: ;
+   color:#294fca ;
    text-decoration:none ;
+   
 }
 #navbar ul li a:hover{
-    color:black;
-   background-color:white ;
+    color: rgb(95, 219, 95);
+   background-color:rgb(47, 21, 165) ;
 }
 
 
@@ -90,25 +91,28 @@
 }
 #home::before{
         content:"" ;
-        background:url('https://davieconstruction.com/wp-content/uploads/2019/07/Careers-Page-Header.jpg') no-repeat center center/cover;
+        background:url('../photos/lowerbg.jpg') no-repeat center center/cover;
+        background-blend-mode: darken;
         position: absolute ;
-        height:100%;
+        height:100vh;
         width: 100%;
         z-index: -1;
         opacity: 0.4;
-     
+        
      }
 #home h1{
     text-align:center ;
-    font-family: 'Averia Libre', cursive;
-    
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 93px;
+    color: rgb(207, 145, 52);
 
 }
 #home p{
-    color: rgb(8, 8, 1);
+    color: black;
     text-align: center;
     font-size: 1.5rem;
-    font-family: 'Averia Libre', cursive;
+    font-family: 'Bebas Neue';
 }
 
 
@@ -120,63 +124,76 @@
   padding: 12px;
 }
 .btn{
-    padding: 6px 20px;
-    border: 2px solid black;
-    background-color:blanchedalmond;
-    color: black ;
-    width: 200px ;
-    height: 40px;
-    font-family:'Averia Libre', cursive ;
-    font-size: 1.5rem ;
-    margin: 15px;
-    cursor: pointer;
+  padding: 2px 14px;
+  border: 2px solid rgb(7, 51, 7);
+  background-color: rgb(243, 221, 188);
+  color: black;
+  width: 168px;
+  height: 40px;
+  font-family: 'Averia Libre', cursive;
+  font-size: 1.5rem;
+  margin: 25px;
+  cursor: pointer;
 }
+
 .carouselcontainer{
   overflow:hidden;
   width:60%;
-  margin:auto;
- border:5px solid black;
- position:relative;
- z-index: 30;
-  
+  margin: auto;
+  position:relative;
+  z-index: 30;
 }
+
 .carousel-slide{
   display:flex;
 }
 #lastclone{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  justify-content: center;
 }
 #img2{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #img3{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #img4{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #img5{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #img6{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #img7{
   
-  width:1100px;
+  width: 1144px;
   height:650px;
+  border: 2px solid red;
+  justify-content: center;
 }
 #firstclone{
   
@@ -193,14 +210,15 @@
 #cat{
   width:60%;
   margin:auto;
-  border:5px solid black;
+  border:5px solid rgb(250, 1, 1);
   font-size: 60px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Abril Fatface';
 
 }
 .job{
  font-size: 50px;
+ text-decoration: none;
 }
 
 
