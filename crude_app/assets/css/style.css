@@ -140,3 +140,33 @@ text-light{
 
 }
 
+
+
+
+
+/* FORM CSS */
+
+
+
+*{
+
+}
+h1{
+    margin:0 ;
+    color: brown;
+    border: 5px solid black;
+    margin-top: 0;
+    width: 70;
+   
+}
+
+.container{
+    margin: auto;
+    width: 50;
+   display: block ;
+
+}
+#submit{
+    
+     margin: auto;
+}
