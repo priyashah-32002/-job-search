@@ -135,6 +135,9 @@
   margin: 25px;
   cursor: pointer;
 }
+.back{
+  background-color: rgb(228, 252, 232);
+}
 
 .carouselcontainer{
   overflow:hidden;
@@ -210,15 +213,16 @@
 #cat{
   width:60%;
   margin:auto;
-  border:5px solid rgb(250, 1, 1);
+  border:2px solid rgb(159, 42, 212);
   font-size: 60px;
   text-align: center;
   font-family: 'Abril Fatface';
-
+  background-color: rgb(228, 252, 232);
 }
-.job{
- font-size: 50px;
- text-decoration: none;
+.carouselcontainer a h1{
+  text-decoration: none;
+  color: rgb(171, 105, 233);
+  font-family: 'Architects Daughter';
 }
 
 
