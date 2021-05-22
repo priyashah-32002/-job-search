@@ -1,15 +1,17 @@
-<tr>
-    <td>1</td>
-    <td>Username</td>
-    <td>Male</td>
-    <td>Plumber</td>
-    <td>Active</td>
-    <td>
-        <a href="#" class="btn border-shadow update">
-            <span class="text-gradient"><i class="fas fa-pencil-alt"></i></class> </span>
-        </a>
-        <a href="#" class="btn border-shadow delete">
-            <span class="text-gradient"><i class="fas fa-times"></i></class> </span>
-        </a>
-    </td>
-</tr>
+<% for(var i = 0; i < employees.length; i++) { %>
+    <tr>
+        <td><%= i + 1 %></td>
+        <td><%= employees[i].username %></td>
+        <td><%= employees[i].job_category%></td>
+        <td><%= employees[i].gender %></td>
+        <td><%= employees[i].status %></td>
+        <td>
+            <a href="/update-employee" class="btn border-shadow update">
+                <span class="text-gradient"><i class="fas fa-pencil-alt"></i></span>
+            </a>
+            <a class="btn border-shadow delete" >
+                <span class="text-gradient"><i class="fas fa-times"></i></span>
+            </a>
+        </td>
+    </tr>
+    <% } %>
