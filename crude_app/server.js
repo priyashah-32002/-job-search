@@ -19,9 +19,9 @@ app.use(morgan('tiny'));
 connectDB ();
 
 //parse requests
-app.use(bodyparser.urlencoded({extended: false}))
-app.use(bodyparser.json());
-// app.use(express.json({extended: false}));
+// app.use(bodyparser.urlencoded({extended: false}))
+// app.use(bodyparser.json());
+app.use(express.json({extended: false}));
 
 
 //set view engine
