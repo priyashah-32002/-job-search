@@ -25,8 +25,10 @@
                       <span class="text-dark">Use the below to update your status </span>
                     
                      <form method="POST" id="update_employee"> 
-                         <div class="form-group">
+                        <div class="new_employee"></div>
+                        <div class="form-group">
                             <label for="name">Username</label>
+                            <input type="hidden" name="id" value="<%= employee._id%>">
                             <input type="text" class="form-control" id="username"<%= employee.username %>placeholder="Enter your username">
                             <small id="namevalid" class="form-text text-muted invalid-feedback">
                                 Your username must be 2-10 characters long and should not start with a number.
@@ -35,7 +37,7 @@
 
                         <div class="form-group">
                             <label for="car">Job category</label>
-                            <select class="form-control" id="jobs">
+                            <select class="form-control" id="jobs" >
                                 <option>Carpenter</option>
                                 <option>Plumber</option>
                                 <option>Electrician</option>

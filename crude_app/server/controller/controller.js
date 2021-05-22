@@ -4,16 +4,19 @@
  //creating API request
  exports.create = (req,res) => {
    // validate request
+   console.log("request recieved"+ req.body)
     if(!req.body){
         res.status(400).send({message:"Content can not be empty!"});
+        // console.log("dfjfr")
         return;
      }
-  
-
+   
+     console.log(req.body)
+    
    //new employee 
    const employee = new Employeedb({
        username:req.body.username,
-       email:req.body.email,
+       job_category:req.body.job_category,
        gender:req.body.gender,
        status: req.body.status
    })
@@ -79,7 +82,7 @@ exports.update =(req,res) =>{
     }
     
     const id = req.params.id;
-    Employeedb.findBYIdAndUpdate(id,req.body ,{useFindAndModify:false})
+    Employeedb.findByIdAndUpdate(id,req.body ,{useFindAndModify:false})
     .then(data=>{
           
         if(!data){

@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // var Employeedb =require('../model/model');
-var Schema = new mongoose.Schema({
+var schema = new mongoose.Schema({
 
     username:{
     type: String,
@@ -9,8 +9,8 @@ var Schema = new mongoose.Schema({
     },
     job_category:{
       type:String,
-      required :true,
-      unique:true
+      required :true
+      // unique:true
 
     },
     gender:String,
@@ -18,6 +18,6 @@ var Schema = new mongoose.Schema({
 
 })
 
-const Employeedb = mongoose.model('Employeedb',Schema);
+const Employeedb = mongoose.model('employeedb',schema);
 
 module.exports  = Employeedb;
