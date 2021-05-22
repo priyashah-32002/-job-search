@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="slide.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Averia+Libre:wght@300&family=Bree+Serif&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,29 +17,34 @@
 </head>
  
 <body>
-<!-- navigation bar -->
-<nav id="navbar" class="background"> 
-   <div id="logo">
-      <img src="https://www.csestack.org/wp-content/uploads/2017/06/Job-Search-Techniques.jpg" alt=" logo">
-   </div>
-  
-   <ul>
-    
-      <li class="navbar"><a href="#">Home</a></li>
-      <li class="navbar"><a href="#">About us</a></li>
-      <li class="navbar"><a href="#">Contacts</a></li>
-      <li class="navbar"><a href="abcd.html">Sign in</a></li>
-    </ul>
- </nav>
+  <div id="upper">
 
-  <section id="home">
+        <nav id="navbar">
+            <div id="logo">
+               <img src="https://www.csestack.org/wp-content/uploads/2017/06/Job-Search-Techniques.jpg" alt=" logo">
+            </div>
+         <ul>
     
-      <h1 class="h-primary">Quest for your employment needs ends here</h1>
-       <p>Constructing AATMANIRBHAR India by empowering Indians</p>
-       <p>An initiative by students of Motilal Nehru National Institute of Technology</p>
+                <li class="navbar"><a href="#">Home</a></li>
+                <li class="navbar"><a href="#">About us</a></li>
+                <li class="navbar"><a href="#">Contacts</a></li>
+                <li class="navbar"><a href="signin.html">Sign in</a></li>
+              </ul>
+             </nav>
+
+   <section id="home">
+      <h1 class="h-primary">Welcome you all here will find jobs and can hire </h1>
+       <p> This website can be used to help people who are skilled in a particular proffesion so that they can find a better livelihood.
+       </p>
+       <p> laboriosam repellat distinctio facere nulla.
+       </p>
        <button class="btn">Find jobs</button>
-</section>
 
+
+
+
+    </section>
+  </div>  
 <br> <br> <br>
 <br>
 <br>
@@ -50,58 +56,247 @@
 <br>
   <br>
   <br>
-  <div class="back">
-  <h1 id="cat" style="color:rgb(75, 190, 171)">JOB CATEGORIES</h1>
-  <br>
-    <div class="carouselcontainer">
-      
-         <a href="abcd.html" class="text">
-            <img id="lastclone"  src="../photos/bg.jpg"  alt="LOADING...">
-           
-          <h1 href="FORM/abcd.html" class="job">Construction</h1>
-         </a>
-         <a href="abcd.html"class="text">
+ <br>
+  <hr>
+  <h1 id="cat" style="color:rgb(85, 10, 10)">JOB CATEGORY</h1>
+  
+<div id="jobcat">  
 
-            <img id="img2"  src="https://www.executivegrapevine.com/uploads/articles/Tesco-delivery-driver-sacked-.jpg" alt="LOADING...">
-            <h1 class="job">Delivery & Driver</h1>
-            </a>
-
-        
-            <a href="abcd.html" class="text">
-         
-              <img id="img3" src="https://media.istockphoto.com/photos/electrician-measurements-with-multimeter-tester-system-ready-picture-id949711426?k=6&m=949711426&s=612x612&w=0&h=hDBm2asFMLYxHxj7RzWGP1hgbxjIEb7P0cTuHraNOwk=" alt="LOADING...">
-              <h1 class="job">Electrician</h1>
-            </a>
-            <a href="abcd.html" class="text">
-
-            <img  id="img4" src="https://www.convergencetraining.com/Images/Courses/Industrial-housekeeping-image-01.jpg" alt="LOADING...">
-            <h1 class="job">House Keeper</h1>>
-            </a>
-            <a href="abcd.html" class="text">
-
-            <img id="img5" src="https://www.theleaflet.in/wp-content/uploads/2020/11/382051-workers-labourers.jpg" alt="LOADING...">
-            <h1 class="job">Labour</h1>
-            </a>
-            <a href="abcd.html" class="text">
-
-            <img id="img6" src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/02/featured-image-hire-plumber.jpg" alt="LOADING...">
-            <h1 class="job">Plumber</h1>
-            </a>
-            <a href="abcd.html" class="text">
-
-            <img id="img7"  src="https://m.economictimes.com/thumb/msid-73323235,width-1200,height-900,resizemode-4,imgsize-1334288/farmers-scheme-istock.jpg"  alt="LOADING...">
-            <h1 class="job">Farmer</h1>
-            
-            </a>
+  <div class="img-slider">
+    <div class="slide active">
+      <a href="signin.html" class="text"> 
+        <img src="https://www.latestlaws.com/media/2018/10/Cleaning-construction-sites.jpg" alt="LOADING...">
+      </a> 
+      <div class="info">
+        <h2>Contruction</h2>
+      </div>
+    </div>
+    <div class="slide">
+      <a href="signin.html" class="text">  
+        <img src="https://www.executivegrapevine.com/uploads/articles/Tesco-delivery-driver-sacked-.jpg" alt="LOADING...">
+      </a>
+      <div class="info">
+        <h2>Delivery&Driver</h2>
+      </div>
+    </div>
+    <div class="slide">
+      <a href="signin.html" class="text"> 
+       <img src="https://media.istockphoto.com/photos/electrician-measurements-with-multimeter-tester-system-ready-picture-id949711426?k=6&m=949711426&s=612x612&w=0&h=hDBm2asFMLYxHxj7RzWGP1hgbxjIEb7P0cTuHraNOwk=" alt="LOADING...">
+      </a>
+      <div class="info">
+        <h2>Electrician</h2>
+      </div>
+    </div>
+    <div class="slide">
+      <a href="signin.html" class="text">
+        <img src="https://www.convergencetraining.com/Images/Courses/Industrial-housekeeping-image-01.jpg" alt="LOADING...">
+      </a>
+      <div class="info">
+        <h2>HouseKeeper</h2>
+     
+      </div>
+    </div>
+     <div class="slide">
+      <a href="signin.html" class="text">
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/02/featured-image-hire-plumber.jpg" alt="LOADING...">
+      </a>
+      <div class="info">
+        <h2>Plumber</h2>
+      </div>
+    </div>
+    <div class="slide">
+      <a href="signin.html" class="text"> 
+       <img  src="https://m.economictimes.com/thumb/msid-73323235,width-1200,height-900,resizemode-4,imgsize-1334288/farmers-scheme-istock.jpg"  alt="LOADING...">   
+      </a>
+      <div class="info">
+        <h2>Farmer</h2>
+      </div>
+    </div>
+    <div class="slide">
+      <a href="signin.html" class="text">
+        <img  src="https://www.convergencetraining.com/Images/Courses/Industrial-housekeeping-image-01.jpg" alt="LOADING...">
+      </a>
+      <div class="info">
+        <h2>HouseKeeper</h2>
+      </div>
+    </div>
+   
+   
+    <div class="navigation">
+      <div class="btn active"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
+      <div class="btn"></div>
     </div>
   </div> 
-  
+</div>
+<div id="foot"> 
+  <div class="wrapper">
+   <div class="testimonial">
+     <div class="item">
+       <div class="img">
+         <img src="person_1.png" alt="">
+       </div>
+       <div class="name">Nitesh</div>
+       <div class="content">
+         <h1><i class="fas fa-quote-left"></i></h1>
+         <p>This website has helped me .........................................................................................................................................</p>
+         <div class="stars">
+   		   <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="img">
+         <img src="person_2.png" alt="">
+
+       </div>
+       <div class="name">Himanshi</div>
+       <div class="content">
+         <h1><i class="fas fa-quote-left"></i></h1>
+         <p>Really thankful to this website for................................................................................................................................</p>
+         <div class="stars">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gray.png" alt="">
+           <img src="star_gray.png" alt="">
+           <img src="star_gray.png" alt="">
+         </div>
+       </div>
+     </div>
+     <div class="item">
+       <div class="img">
+         <img src="person_3.png" alt="">
+       </div>
+       <div class="name">Priya</div>
+       <div class="content">
+         <h1><i class="fas fa-quote-left"></i></h1>
+         <p>One of the best websites in this domain.................................................................................................................................</p>
+         <div class="stars">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gold.png" alt="">
+           <img src="star_gray.png" alt="">
+           <img src="star_gray.png" alt="">
+         </div>
+       </div>
+     </div>
+     <div class="clear-fix"></div>
+  </div>
+</div>	
+
+ 
+       
+        </div>
+    </div>
+    <div class="lower">
+     <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Jobs Categories</h4>
+  	 			<ul>
+  	 				<li><a href="#">Construction</a></li>
+  	 				<li><a href="#">Driver</a></li>
+  	 				<li><a href="#">House Keeping</a></li>
+  	 				<li><a href="#">Others</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Contact Us</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">Email</a></li>
+  	 				<li><a href="#">Address</a></li>
+
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>For Recruiters</h4>
+  	 			<ul>
+  	 				<li><a href="#">Post a Job</a></li>
+  	 				<li><a href="#">Search Candidates</a></li>
+  	 				<li><a href="#">Resume Database</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+    </div>   
+</div>
+<script type="text/javascript">
+        var slides = document.querySelectorAll('.slide');
+        var btns = document.querySelectorAll('.btn');
+        let currentSlide = 1;
+    
+        // Javascript for image slider manual navigation
+        var manualNav = function(manual){
+          slides.forEach((slide) => {
+            slide.classList.remove('active');
+    
+            btns.forEach((btn) => {
+              btn.classList.remove('active');
+            });
+          });
+    
+          slides[manual].classList.add('active');
+          btns[manual].classList.add('active');
+        }
+    
+        btns.forEach((btn, i) => {
+          btn.addEventListener("click", () => {
+            manualNav(i);
+            currentSlide = i;
+          });
+        });
+    
+        // Javascript for image slider autoplay navigation
+        var repeat = function(activeClass){
+          let active = document.getElementsByClassName('active');
+          let i = 1;
+    
+          var repeater = () => {
+            setTimeout(function(){
+              [...active].forEach((activeSlide) => {
+                activeSlide.classList.remove('active');
+              });
+    
+            slides[i].classList.add('active');
+            btns[i].classList.add('active');
+            i++;
+    
+            if(slides.length == i){
+              i = 0;
+            }
+            if(i >= slides.length){
+              return;
+            }
+            repeater();
+          }, 10000);
+          }
+          repeater();
+        }
+        repeat();
+        
+</script>
 
 
 </body>
 
 </html>
-
-
 
 
